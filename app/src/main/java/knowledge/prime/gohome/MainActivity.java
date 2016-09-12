@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
         intent.setAction(Intent.ACTION_SENDTO);
 
         intent.setType("text/plain");
-        intent.setData(Uri.parse("mailto:chigogahuchi@ezweb.ne.jp"));
+        intent.setData(Uri.parse("mailto:xxx@xxx"));
         intent.putExtra(Intent.EXTRA_SUBJECT, "Re:");
         intent.putExtra(Intent.EXTRA_TEXT, "とうちんそろそろかえるよ");
 
